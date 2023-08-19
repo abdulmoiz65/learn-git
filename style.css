@@ -6,6 +6,7 @@ table{
   height: 400px;
   text-align: center;
   font-size: 35px;
+  box-shadow: 45px 40px 50px;
     
 }
 thead{
