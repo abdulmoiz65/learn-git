@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contact-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .contact-info {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .contact-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .contact-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  .contact-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .contact-button:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+
+<div class="contact-section">
+  <h2 class="contact-heading">Contact Us</h2>
+  <p class="contact-info">
+    Have questions or need assistance? Feel free to reach out to us!
+  </p>
+  <form class="contact-form" action="#" method="post">
+    <input class="contact-input" type="text" name="name" placeholder="Your Name" required>
+    <input class="contact-input" type="email" name="email" placeholder="Your Email" required>
+    <textarea class="contact-textarea" name="message" placeholder="Your Message" required></textarea>
+    <button class="contact-button" type="submit">Send Message</button>
+  </form>
+</div>
+
+</body>
+</html>

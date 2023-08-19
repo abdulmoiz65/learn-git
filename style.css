@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+  padding: 25px;
+  margin: auto;
+  width: 50%;
+  height: 400px;
+  text-align: center;
+  font-size: 35px;
+    
+}
+thead{
+    background-color: orange;
+    text-shadow: 5px 5px 10px;
+    /* border: 2px solid; */
+
+
+}
