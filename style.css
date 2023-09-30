@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 table{
     border-collapse: collapse;
   padding: 25px;
@@ -31,3 +35,32 @@ h1{
     text-align: center;
     text-shadow: 10px 5px 15px;
 }
+
+
+
+header {
+    border: solid 5px;
+    height: 60px ;
+    width: 100%;
+    background-color: orange;
+}
+nav ul  li {
+    
+    display: inline;
+    list-style: none;
+    
+}
+nav ul {
+    text-align: center;
+    padding-top:15px ;
+}
+ nav ul a {
+    font-weight: bold;
+    color: black;
+    font-size: 25px;
+    margin: 10px;
+    text-decoration: none;
+ }
+ nav ul li{
+    padding: 50px;
+ }
