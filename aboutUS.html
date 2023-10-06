@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <style>
-        div{
+        .abt{
             height: 600px;
             width: 80%;
             margin: auto;
@@ -15,6 +17,7 @@
             color: beige;
             border: none;
             animation: abt 1s linear  1;
+
         }
         @keyframes abt {
             0%{
@@ -68,6 +71,67 @@ nav ul li{
     padding: 50px;
  }
 
+ /* footer */
+ .footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
         </style>
 </head>
 
@@ -87,7 +151,8 @@ nav ul li{
     </header>
     <h1>ABOUT US</h1>
 
-    <div>
+    <div class="container mb-5">
+    <div class="abt">
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae labore fuga unde minima magnam beatae voluptas. Harum temporibus veritatis debitis reiciendis aliquid quidem adipisci reprehenderit tenetur voluptatem delectus, dolorum voluptas?
        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique exercitationem esse rerum voluptas harum, at nemo repellendus, dolores tenetur repudiandae vel nesciunt nobis eos vitae perspiciatis quae obcaecati enim sapiente? Voluptas sit animi ex cumque, harum laboriosam nemo quisquam, dolorem quia sapiente saepe cupiditate est nam at earum eaque reprehenderit.
@@ -96,7 +161,21 @@ nav ul li{
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit esse sint accusamus facilis quis aspernatur sit quam sed mollitia nesciunt vitae nostrum laboriosam maxime totam, id quos tempore quae quia. Praesentium voluptatem, dolorem repudiandae mollitia quod sapiente maiores corporis consequuntur velit vel sint nesciunt molestiae eius necessitatibus laborum unde reiciendis officia et repellendus vitae illum cupiditate alias harum nulla. Assumenda unde consequuntur eveniet autem porro a, aliquid rerum eligendi magni iure modi ipsam inventore culpa amet ea quod consequatur aliquam. Reiciendis architecto nam placeat possimus fugiat dolores exercitationem quisquam saepe nesciunt ex error libero at ipsa aperiam beatae dolorum id molestias animi rem iusto, alias iste nulla sequi? Repellat asperiores magnam odio molestias, libero eius quod eveniet impedit veniam dignissimos ab laudantium voluptatibus reprehenderit explicabo earum illum vitae in repudiandae facere voluptatem ad! Sunt earum mollitia repudiandae quo recusandae dignissimos nulla temporibus repellat dolorum impedit, incidunt minima asperiores beatae?
     </p>
     </div>
+    </div>
 
+    <div class="footer-basic bg-dark text-white">
+        <footer>
+            <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">Services</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+            <p class="copyright">Company Name © 2018</p>
+        </footer>
+    </div>
 
 </body>
 </html>
